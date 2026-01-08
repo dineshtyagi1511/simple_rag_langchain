@@ -40,8 +40,12 @@ langchain-chroma
 chromadb
 
 # Qdrant (optional - for advanced users)
-# langchain-qdrant==0.2.3
-# qdrant-client==1.13.2
+langchain-qdrant
+qdrant-client
+
+# For Ollama embeddings
+langchain-ollama
+langchain-core
 
 # Pinecone (optional - cloud vector store)
 # langchain-pinecone==0.3.5
